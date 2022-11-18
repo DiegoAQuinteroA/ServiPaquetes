@@ -1,0 +1,6 @@
+Te contrataron como ingeniero de software junior para desarrollar una aplicación, para la empresa ServiPaquetes, que ayude con la gestión de los paquetes. Específicamente para calcular el costo de los envíos de los paquetes, La empresa te indica que es fundamental que sigas el orden en el que ellos te indican los datos, puesto que el sistema de ellos los arroja en un orden específico.
+
+Esta semana la empresa te comunica que terminaron la fase de pruebas de su nuevo sistema. Este nuevo y mejorado sistema ahora genera un archivo json que contiene algunos datos de la empresa y, lo más importante, los datos de los paquetes. Ellos te piden que, por favor, adaptes tu programa para que pueda leer el archivo generado por su sistema. (paquetes.JSON)
+
+
+Tu tarea esta semana es adaptar la función costoTotal (ver reto4) de tal forma que el primer parámetro que esta solicita (numeroPaquetes), en lugar de recibir un número, reciba una lista con la información de los paquetes. Esto implica que el ciclo que usas dentro de la función debe adaptarse también, además de que ya no será necesario tomar los datos de los paquetes por entrada estándar, ya que estos datos vienen en formato de diccionario dentro de la lista de paquetes.
